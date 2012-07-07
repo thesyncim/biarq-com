@@ -1,0 +1,59 @@
+/*======= index.html =======*/
+#page1 #content .col-1 {width:645px; margin-right:17px;}
+#page1 #content .col-2 {width:298px;}
+
+#page1 #content .col-1 .col-1 {width:304px; margin-right:7px;}
+#page1 #content .col-1 .col-2 {width:304px;}
+
+/*======= index-1.html =======*/
+#page2 #content .row-1 .col-1 {width:645px; margin-right:17px;}
+#page2 #content .row-1 .col-2 {width:298px;}
+
+#page2 #content .row-2 .col-1 {width:248px; margin-right:62px;}
+#page2 #content .row-2 .col-2 {width:248px; margin-right:62px;}
+#page2 #content .row-2 .col-3 {width:248px;}
+
+/*======= index-2.html =======*/
+#page3 #content .col-1 {width:645px; margin-right:17px;}
+#page3 #content .col-2 {width:298px;}
+
+#page3 #content .col-1 .col-1 {width:304px; margin-right:7px;}
+#page3 #content .col-1 .col-2 {width:304px;}
+
+/*======= index-3.html =======*/
+#page4 #content .row-1 .col-1 {width:645px; margin-right:17px;}
+#page4 #content .row-1 .col-2 {width:298px;}
+
+#page4 #content .row-2 .col-1 {width:395px; margin-right:65px;}
+#page4 #content .row-2 .col-2 {width:395px;}
+
+/*======= index-4.html =======*/
+#page5 #content .col-1 {width:645px; margin-right:17px;}
+#page5 #content .col-2 {width:298px;}
+
+#page5 #content .col-1 .row-1 .col-1 {width:175px; margin-right:45px;}
+#page5 #content .col-1 .row-1 .col-2 {width:175px; margin-right:45px;}
+#page5 #content .col-1 .row-1 .col-3 {width:175px;}
+
+#page5 #content .col-1 .row-2 .col-1 {width:248px; margin-right:60px;}
+#page5 #content .col-1 .row-2 .col-2 {width:248px;}
+
+/*======= index-5.html =======*/
+#page6 #content .row-1 .col-1 {width:645px; margin-right:17px;}
+#page6 #content .row-1 .col-2 {width:298px;}
+
+/*======= index-6.html =======*/
+#page7 #content .col-1 {width:645px; margin-right:17px;}
+#page7 #content .col-2 {width:298px;}
+
+#page7 #content .col-1 .row-1 .col-1 {width:175px; margin-right:45px;}
+#page7 #content .col-1 .row-1 .col-2 {width:175px; margin-right:45px;}
+#page7 #content .col-1 .row-1 .col-3 {width:175px;}
+
+#page7 #content .col-1 .row-2 .col-1 {width:248px; margin-right:60px;}
+#page7 #content .col-1 .row-2 .col-2 {width:248px;}
+
+
+
+
+

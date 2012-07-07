@@ -1,0 +1,275 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {display:inline;}
+
+/* Global properties ======================================================== */
+* {margin:0; padding:0;}
+
+html {width:100%;}
+
+body { 	 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%; 
+	color:#5c5b5b;
+	min-width:960px;
+	background:url(http://www.biarq.com/img/bg-top.jpg) center 0 no-repeat #000000;
+}
+
+.bg {width:100%; }
+
+.main {
+	width:960px; 	
+	padding:0;
+	margin:0 auto;
+	font-size:0.8125em;
+	line-height:1.384em;
+}
+
+img {border:0; vertical-align:top; text-align:left;}
+
+a {color:#7ca500; outline:none;}
+a:hover {text-decoration:none;}
+
+object {outline:none;}
+fieldset {border:0;}
+
+ul {list-style:none;}
+
+table, table td {padding:0; border:none; border-collapse:collapse;}
+
+.clear {clear:both; width:100%; line-height:0; font-size:0;}
+
+.col-1, .col-2, .col-3, .col-4 {float:left;}
+.column-1, .column-2, .column-3 {float:left;}  
+
+.wrapper {width:100%; overflow:hidden;}
+.extra-wrap {overflow:hidden;}
+.extra-box {overflow:hidden;}
+ 
+.container {width:100%;}
+
+p {margin-bottom:18px;}
+.p1 {margin-bottom:8px;}
+.p2 {margin-bottom:15px;}
+.p3 {margin-bottom:30px;}
+.p4 {margin-bottom:40px;}
+.p5 {margin-bottom:50px;}
+
+.reg {text-transform:uppercase;}
+
+.fleft {float:left;}
+.fright {float:right;}
+
+.alignright {text-align:right;}
+.aligncenter {text-align:center;}
+
+.it {font-style:italic;}
+
+.letter {letter-spacing:-1px;}
+
+.color-1 {color:#fff;}
+.color-2 {color:#000;}
+.color-3 {color:#5c5b5b;}
+.color-4 {color:#7ca500;}
+.color-5 {color:#000;}
+.color-6 {color:#000;}
+
+/*********************************boxes**********************************/
+.margin-bot {margin-bottom:35px;}
+
+.spacing {margin-right:35px;}
+.spacing2 {margin-right:45px;}
+.spacing3 {margin-right:60px;}
+
+.spacing-bot {margin-bottom:25px;}
+
+.indent {padding:0 0 0px 30px;}
+.indent2 {padding-left:50px;}
+
+.indent-bot {margin-bottom:20px;}
+.indent-bot0 {margin-bottom:0px;}
+.indent-bot1 {margin-bottom:3px;}
+.indent-bot2 {margin-bottom:30px;}
+.indent-bot3 {margin-bottom:45px;}
+
+.img-indent-bot {margin-bottom:25px;}
+.img-indent {float:left; margin:0 30px 0px 0;}	
+.img-indent2 {float:left; margin:0 13px 0px 0;}	
+.img-indent-r {float:right; margin:0 0px 0px 40px;}	
+
+.img-box {float:left; margin-bottom:20px;}	
+
+.prev-indent-bot {margin-bottom:10px;}
+.prev-indent {float:left; margin:0 11px 0px 0;}	
+.prev-box {float:left; margin-bottom:8px;}	
+
+.border {border:3px solid #0e0e0e;}
+.border2 {border:1px solid #000;}
+
+.buttons a:hover {cursor:pointer;}
+
+.menu li a,
+.button,
+.button1,
+.button2,
+.list-1 li a,
+.list-2 li a,
+.list-3 a, 
+.link,
+.logo a {text-decoration:none;}	
+
+/*********************************header*************************************/
+header {height:258px; width:100%;}
+
+header .row-1 {height:86px;}
+header .row-2 {height:89px;}
+
+.form-top {float:right; padding-top:16px; font-size:12px;}
+#form-top {float:right;}
+#form-top label {float:right; padding-right:12px;}
+#form-top input {width:90px; font-size:12px; color:#fff; padding:1px 5px; font-family:Arial, Helvetica, sans-serif; border:0; background:#282828;}
+
+h1 {margin:0px 0 0px 12px; position:relative;}
+.logo {display:block; width:424px; height:82px; text-indent:-5000px; background:url(http://www.biarq.com/img/logo.png) 0 0 no-repeat;}
+
+.box-menu {width:100%; background:url(http://www.biarq.com/img/menu-tail.gif) 0 0 repeat-x;}
+.box-menu .corner-left {background:url(http://www.biarq.com/img/menu-left.gif) 0 0 no-repeat;}
+.box-menu .corner-right {width:100%; overflow:hidden; height:54px; background:url(http://www.biarq.com/img/menu-right.gif) right 0 no-repeat;}
+
+.sub-menu {float:right; padding:19px 19px 0 0px;}
+.sub-menu li {float:left; padding:0 0 0 3px;}
+
+.menu {float:left; padding:16px 0px 0 28px;}
+.menu li {float:left; font-size:16px; line-height:1.2em; padding-right:38px;}
+.menu li a {color:#000;}
+.menu li .active, .menu li a:hover {color:#fff;} 
+.menu .item {padding:0;}
+
+.flash-2 {width:615px; height:301px; margin-bottom:11px;}
+
+/*********************************content*************************************/
+#content {width:100%; padding:0px 0px 40px 0px;}
+
+.spacer-1 {width:100%; background:url(http://www.biarq.com/img/pic-1.gif) 217px 0 repeat-y;}
+.spacer-2 {width:100%; background:url(http://www.biarq.com/img/pic-1.gif) 460px 0 repeat-y;}
+
+h3 {font-size:24px; line-height:1.2em; margin:0px 0 10px; color:#a8a8a8;}
+.title {padding:10px 0 12px 28px; overflow:hidden; font-size:20px; letter-spacing:-1px; position:relative; margin-bottom:0px; background:url(http://www.biarq.com/img/tail-head.gif) 0 0 repeat-x;} 
+
+.scroll {overflow:auto; height:180px; position:relative;}
+.scroll .padding-right {height:1%; padding-right:50px;}
+
+.border-bot {width:100%; padding-bottom:34px; background:url(http://www.biarq.com/img/pics-x.gif) 0 bottom repeat-x;}
+.border-bot2 {width:100%; padding-bottom:15px; background:url(http://www.biarq.com/img/pics-x.gif) 0 bottom repeat-x;}
+
+.box {width:100%; background:url(http://www.biarq.com/img/png-box.png) 0 0 repeat;}
+.box .padding {padding:15px;}
+
+.box6 {width:100%; height:450px; background:url(http://www.biarq.com/img/png-box.png) 0 0 repeat;}
+.box6 .padding {padding:15px;}
+
+.box1 {width:100%;}
+.box1 .padding {padding:15px;}
+.box1 h3 {color:#4f575e; margin-bottom:25px;}
+
+.box2 {width:100%; background:url(http://www.biarq.com/img/box2.png) 0 0 repeat;}
+.box2 .padding {padding:19px 10px;}
+.box2 .padding2 {padding:0px 12px 0px 18px;}
+.box2 .padding3 {padding:19px 22px 19px 28px;}
+
+.box3 {width:100%; color:#000; font-size:12px; background:url(http://www.biarq.com/img/tail-form1.gif) 0 0 repeat-x #656565;}
+.box3 .padding {padding:27px 16px 24px 16px;}
+
+.box4 {width:100%; background:#000;}
+.box4 .padding {padding:22px 26px 20px 31px;}
+
+.box5 {width:100%;}
+.box5 .padding {padding:15px;}
+.box5 h3 {color:#4f575e; margin-bottom:0px;}
+
+.button {display:inline-block; color:#000; font-size:10px; text-transform:uppercase; background:url(http://www.biarq.com/img/button-tail.gif) 0 0 repeat-x;}
+.button span {display:inline-block; background:url(http://www.biarq.com/img/button-left.gif) 0 0 no-repeat;}
+.button span span {padding:1px 17px; background:url(http://www.biarq.com/img/button-right.gif) right 0 no-repeat;}
+.button:hover {color:#fff; background:url(http://www.biarq.com/img/button-tail-h.gif) 0 0 repeat-x;}
+.button:hover span {background:url(http://www.biarq.com/img/button-left-h.gif) 0 0 no-repeat;}
+.button:hover span span {background:url(http://www.biarq.com/img/button-right-h.gif) right 0 no-repeat;}
+
+.button1 {display:inline-block; color:#869bad; font-size:10px; text-transform:uppercase; background:url(http://www.biarq.com/img/button1-tail.gif) 0 0 repeat-x;}
+.button1 span {display:inline-block; background:url(http://www.biarq.com/img/button1-left.gif) 0 0 no-repeat;}
+.button1 span span {padding:1px 12px; background:url(http://www.biarq.com/img/button1-right.gif) right 0 no-repeat;}
+.button1:hover {color:#fff; background:url(http://www.biarq.com/img/button-tail-h.gif) 0 0 repeat-x;}
+.button1:hover span {background:url(http://www.biarq.com/img/button-left-h.gif) 0 0 no-repeat;}
+.button1:hover span span {background:url(http://www.biarq.com/img/button-right-h.gif) right 0 no-repeat;}
+
+.button2 {display:inline-block; color:#000; font-size:10px; text-transform:uppercase; background:url(http://www.biarq.com/img/button-tail.gif) 0 0 repeat-x;}
+.button2 span {display:inline-block; background:url(http://www.biarq.com/img/button-left.gif) 0 0 no-repeat;}
+.button2 span span {padding:1px 8px; background:url(http://www.biarq.com/img/button-right.gif) right 0 no-repeat;}
+.button2:hover {color:#fff; background:url(http://www.biarq.com/img/button-tail-h.gif) 0 0 repeat-x;}
+.button2:hover span {background:url(http://www.biarq.com/img/button-left-h.gif) 0 0 no-repeat;}
+.button2:hover span span {background:url(http://www.biarq.com/img/button-right-h.gif) right 0 no-repeat;}
+
+.list-1 li {line-height:30px; padding:0 0 0 18px; position:relative; vertical-align:top; background:url(http://www.biarq.com/img/pics-1.gif) 0 bottom repeat-x;}
+.list-1 li a {display:block; color:#5c5b5b; padding-left:30px; background:url(http://www.biarq.com/img/marker-2.png) 0 5px no-repeat;}
+.list-1 li a:hover {color:#fff;}
+.list-1 .last-item {background:none;}
+
+.list-2 li {padding:12px 0 14px 12px; margin-bottom:3px; background:url(http://www.biarq.com/img/tail-box1.gif) 0 bottom repeat-x #171717;}
+.list-2 li a {display:block; color:#5c5b5b; padding-left:32px; background:url(http://www.biarq.com/img/marker-1.png) 0 3px no-repeat;}
+.list-2 li a strong {color:#7ca500;}
+.list-2 li a:hover {color:#fff;}
+.list-2 .last-item {margin:0;}
+
+.list-3 {padding:0 18px;}
+.list-3 dt {padding:0 0 4px 0; font-size:11px; line-height:28px; color:#7ca500; text-transform:uppercase;}
+.list-3 dt strong {padding:0 0 0px 23px; font-weight:normal; position:relative; display:block; background:url(http://www.biarq.com/img/marker-3.png) 0 6px no-repeat;}
+.list-3 a {color:#5c5b5b;}
+.list-3 a:hover {color:#fff;}
+
+.list-4 {list-style:decimal-leading-zero;}
+.list-4 li {font-size:12px; line-height:16px; color:#fff; padding-bottom:12px; margin-left:25px; list-style-type:decimal-leading-zero;}
+.list-4 li a {color:#eda202;}
+.list-4 li a:hover {color:#24a3ce;}
+
+.link:hover {text-decoration:underline;} 
+
+.link-1 {display:inline-block; font-size:14px; padding-right:8px; background:url(http://www.biarq.com/img/marker-3.gif) right 8px no-repeat;}
+.link-1:hover {color:#fff;} 
+
+.link-2 {color:#858875;}
+.link-2:hover {color:#000;} 
+
+.text-1 {font-size:16px; text-transform:uppercase; color:#7ca500; font-weight:bold;} 
+.text-2 {font-size:14px; line-height:1.285em;}  
+.text-3 {font-size:11px; line-height:1.272em;}  
+
+.info strong {color:#7ca500;}
+.info span {float:left; width:72px;}
+
+.info2 {text-transform:uppercase; color:#fff;} 
+.info2 span {float:left; width:130px;}
+
+#form-1 {display:block; width:225px; font-size:12px;}
+#form-1 label {display:block; height:30px;}
+#form-1 .text-form1 {float:left; width:69px;}
+#form-1 .text-form2 {float:right; width:200px;}
+#form-1 input {width:141px; font-size:12px; color:#fff; padding:1px 5px; font-family:Arial, Helvetica, sans-serif; border:1px solid #000; background:#282828;}
+#form-1  textarea {height:106px; overflow:auto; width:141px; font-size:12px; color:#fff; padding:1px 5px; font-family:Arial, Helvetica, sans-serif; border:1px solid #000; background:#282828;}
+
+#form-1 input {float:right; width:143px; font-size:12px; color:#fff; padding:1px 5px; font-family:Arial, Helvetica, sans-serif; border:1px solid #000; background:#282828;}
+.submit3 {float:left; width: 225px; margin-top:10px;font-size:12px; color:#fff; padding:1px 5px !important; font-family:Arial, Helvetica, sans-serif; border:1px solid #000; background:#282828;}
+
+#form-main {display:block; width:225px; font-size:12px;}
+#form-main label {display:block; height:30px;}
+#form-main .text-form1 {float:right; width:69px;}
+#form-main input {width:141px; font-size:12px; color:#fff; padding:1px 5px; font-family:Arial, Helvetica, sans-serif; border:1px solid #000; background:#282828;}
+#form-main textarea {height:106px; overflow:auto; width:141px; font-size:12px; color:#fff; padding:1px 5px; font-family:Arial, Helvetica, sans-serif; border:1px solid #000; background:#282828;}
+
+.buttons {padding-top:10px; text-align:right;}
+.buttons a {margin-left:30px;}
+
+/****************************footer************************/
+footer {width:100%; color:#5c5b5b; text-transform:uppercase; background:url(http://www.biarq.com/img/tail-bot.gif) 0 0 repeat;}
+footer .padding {padding:17px 0px 20px 18px; font-size:10px;}
+footer span {padding-left:8px;}
+
+.logo2 {padding-top:11px;}
