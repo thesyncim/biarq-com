@@ -45,7 +45,7 @@ Dispatcher::applyFilter('run', function($self, $params, $chain) {
 	foreach (array_reverse(Libraries::get()) as $name => $config) {
 		if ($name === 'lithium') {
 			continue;
-            
+
 		}
 		$file = "{$config['path']}/config/routes.php";
 		file_exists($file) ? include $file : null;
