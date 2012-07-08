@@ -10,14 +10,27 @@
 
 			<ul id="slideshow">
 				<?php
-				$map = function($imgId, $projecto, $tamanho) {
+				$map = function($imgId, $projecto, $tamanho,$remote=false) {
 					$edited = substr($imgId, 0, -4);
+                    $base='http://admin.biarq.com/img/projectos/';
 
-					return $projecto->mapping[$edited]['jpg'][$tamanho];
+                    if (isset($remote)){
+                        return $projecto->mapping[$edited]['jpg'][$tamanho];
+
+                    }
+                    else {
+                        return $base . $tamanho . '/' . $imgId;
+
+                    }
+                    
+
+
+
+
 				};
 
 				foreach ($projecto->foto as $foto) {
-					$urlFotoGrande = $map($foto, $projecto, 'grandes');
+					$urlFotoGrande = 
 					$urlFotoPequena = $map($foto, $projecto, 'pequenas');
 					$image = $this->html->image($urlFotoPequena,
 						array(
