@@ -22,7 +22,7 @@
                         return $base . $tamanho . '/' . $imgId;
 
                     }
-                    
+
 
 
 
@@ -30,7 +30,7 @@
 				};
 
 				foreach ($projecto->foto as $foto) {
-					$urlFotoGrande = 
+					$urlFotoGrande = $map($foto, $projecto, 'grandes');
 					$urlFotoPequena = $map($foto, $projecto, 'pequenas');
 					$image = $this->html->image($urlFotoPequena,
 						array(
