@@ -46,3 +46,5 @@ class ProjectosController extends \lithium\action\Controller {
 		return compact('projectos', 'projectosrss');
 	}
 }
+
+?>
