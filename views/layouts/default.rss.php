@@ -7,13 +7,14 @@
  */
 ?>
 <?php echo '<?xml version="1.0" encoding="UTF-8" ?>'; ?>
-    <rss version="2.0">
-        <channel>
-            <title>Biarq.com</title>
-            <description>Atelier de arquitectura e engenharia</description>
-            <link>http://biarq.com/</link>
-            <lastBuildDate><?= date( \DateTime::RSS,time()); ?></lastBuildDate>
-            <pubDate><?= date( \DateTime::RSS,time()); ?> </pubDate>
-            <?= $this->content(); ?>
-        </channel>
-    </rss>
+<rss version="2.0">
+    <channel>
+        <title>Biarq.com</title>
+        <description>Atelier de arquitectura e engenharia</description>
+        <link>
+        http://biarq.com/</link>
+        <lastBuildDate><?= date(\DateTime::RSS, time()); ?></lastBuildDate>
+        <pubDate><?= date(\DateTime::RSS, time()); ?> </pubDate>
+        <?= $this->content(); ?>
+    </channel>
+</rss>

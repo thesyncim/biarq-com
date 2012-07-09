@@ -3,13 +3,13 @@
     <li><a <?php if (($this->_request->action == 'index') &&
             ($this->_request->controller == 'Pagina')
     ) {
-            echo ' class="active" ';
-        } ?>
+        echo ' class="active" ';
+    } ?>
             href="<?=$this->site->baseurl()?>">Home </a></li>
     <li><a <?php if ($this->_request->controller == 'projectos'
     ) {
-            echo ' class="active" ';
-        } ?>href="<?=$this->site->baseurl()?>/projectos">Portfólio </a></li>
+        echo ' class="active" ';
+    } ?>href="<?=$this->site->baseurl()?>/projectos">Portfólio </a></li>
 
     <?php
 
