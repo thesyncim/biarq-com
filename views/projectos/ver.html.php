@@ -14,7 +14,7 @@
 					$edited = substr($imgId, 0, -4);
                     $base='http://admin.biarq.com/img/projectos/';
 
-                    if (isset($remote)){
+                    if ($remote==true){
                         return $projecto->mapping[$edited]['jpg'][$tamanho];
 
                     }
@@ -30,8 +30,8 @@
 				};
 
 				foreach ($projecto->foto as $foto) {
-					$urlFotoGrande = $map($foto, $projecto, 'grandes');
-					$urlFotoPequena = $map($foto, $projecto, 'pequenas');
+					$urlFotoGrande = $map($foto, $projecto, 'grandes',false);
+					$urlFotoPequena = $map($foto, $projecto, 'pequenas',false);
 					$image = $this->html->image($urlFotoPequena,
 						array(
 							'width' => '125', 'height' => '75'
