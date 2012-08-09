@@ -42,7 +42,7 @@ use lithium\data\Connections;
  */
  Connections::add('default', array(
  	'type' => 'MongoDb',
- 	'host' => 'pearl.mongohq.com:27086',
+ 	'host' => 'ds035997.mongolab.com:35997',
  	'database' => 'biarq',
         'login' => 'biarq',
         'password' => 'Kirk1zodiak'
